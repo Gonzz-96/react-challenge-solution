@@ -5,6 +5,8 @@ const PokeCard = () => {
   return (
     <>
       <h1>{mockPokemonData.name}</h1>
+      <img src={mockPokemonData.sprites.front_default} alt="Normal Pokemon" />
+      <img src={mockPokemonData.sprites.front_shiny} alt="Shiny Pokemon" />
     </>
   );
 };
