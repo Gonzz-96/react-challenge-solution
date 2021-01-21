@@ -1,4 +1,5 @@
 import React from "react";
+import { mockPokemonData } from "../mock/pokeData";
 
 const PokeCard = () => {
   return (
