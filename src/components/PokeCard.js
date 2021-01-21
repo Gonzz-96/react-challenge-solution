@@ -1,12 +1,11 @@
 import React from "react";
-import { mockPokemonData } from "../mock/pokeData";
 
-const PokeCard = () => {
+const PokeCard = ({ pokemon }) => {
   return (
     <>
-      <h1>{mockPokemonData.name}</h1>
-      <img src={mockPokemonData.sprites.front_default} alt="Normal Pokemon" />
-      <img src={mockPokemonData.sprites.front_shiny} alt="Shiny Pokemon" />
+      <h1>{pokemon.name}</h1>
+      <img src={pokemon.sprites.front_default} alt="Normal Pokemon" />
+      <img src={pokemon.sprites.front_shiny} alt="Shiny Pokemon" />
     </>
   );
 };
