@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-// hello
+// hello, this is a comment
 export default function App() {
   return (
     <div className="App">
