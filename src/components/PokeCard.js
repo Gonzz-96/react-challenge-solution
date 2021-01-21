@@ -4,7 +4,7 @@ import { mockPokemonData } from "../mock/pokeData";
 const PokeCard = () => {
   return (
     <>
-      <h1>PokeCard</h1>
+      <h1>{mockPokemonData.name}</h1>
     </>
   );
 };
